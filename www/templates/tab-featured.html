@@ -1,4 +1,3 @@
-
 <ion-view view-title="Featured">
   <ion-nav-buttons side="left">
     <button class="button button-clear button-positive">Categories</button>
@@ -6,7 +5,21 @@
   <ion-nav-buttons side="right">
     <button class="button button-clear button-positive icon ion-navicon"></button>
   </ion-nav-buttons>
-  <ion-content class="padding">
+  <ion-content>
+    <ion-slide-box does-continue="true" auto-play="true" show-pager="false" on-slide-changed="slideHasChanged($index)">
+      <ion-slide>
+        <div class="slide-box energized-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box positive-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box royal-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box assertive-bg"></div>
+      </ion-slide>
+    </ion-slide-box>
     <div class="list card">
       <div class="item item-divider">Recent Updates</div>
       <div class="item item-body">
