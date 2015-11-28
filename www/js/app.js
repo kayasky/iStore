@@ -69,12 +69,32 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.search', {
+    url: '/search',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-search': {
+        templateUrl: 'templates/tab-search.html',
+        controller: 'SearchCtrl'
+      }
+    }
+  })
+
+  .state('tab.updates', {
+    url: '/updates',
+    views: {
+      'tab-updates': {
+        templateUrl: 'templates/tab-updates.html',
+        controller: 'UpdatesCtrl'
+      }
+    }
+  })
+
+  .state('tab.explore', {
+    url: '/explore',
+    views: {
+      'tab-explore': {
+        templateUrl: 'templates/tab-explore.html',
+        controller: 'ExploreCtrl'
       }
     }
   });
