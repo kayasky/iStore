@@ -1,15 +1,24 @@
-<ion-view view-title="Charts">
+<ion-view view-title="Top Charts">
+  <ion-nav-buttons side="left">
+    <button class="button button-clear button-positive">Categories</button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button button-clear button-positive icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-header-bar align-title="left" class="bar-stable bar-subheader">
+    <div class="button-bar">
+      <a class="button button-positive">Paid</a>
+      <a class="button button-outline button-positive">Free</a>
+      <a class="button button-outline button-positive">Top Grossing</a>
+    </div>
+  </ion-header-bar>
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
+      <ion-item class="item-thumbnail-left item-button-right overflow-visible prn" ng-repeat="chat in chats" type="" href="#/tab/chats/{{chat.id}}">
+        <img class="app-icon-small border border-radius-xl" ng-src="{{chat.thumb}}">
         <h2>{{chat.name}}</h2>
         <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
+        <button class="button float-right font-ms pvn button-outline button-positive button-small">GET</button>
       </ion-item>
     </ion-list>
   </ion-content>
