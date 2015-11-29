@@ -6,29 +6,54 @@ angular.module('starter.services', [])
   // Some fake testing data
   var chats = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
+    name: 'First App',
+    lastText: 'Games',
+    thumb: 'img/app-icon.png'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
+    name: 'Second App',
+    lastText: 'Shopping',
+    thumb: 'img/app-icon.png'
   }, {
     id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
+    name: 'Third App',
+    lastText: 'Games',
+    thumb: 'img/app-icon.png'
   }, {
     id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
+    name: 'Fourth App',
+    lastText: 'Productivity',
+    thumb: 'img/app-icon.png'
   }, {
     id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
+    name: 'Fifth App',
+    lastText: 'Reference',
+    thumb: 'img/app-icon.png'
+  }, {
+    id: 0,
+    name: 'First App',
+    lastText: 'Games',
+    thumb: 'img/app-icon.png'
+  }, {
+    id: 1,
+    name: 'Second App',
+    lastText: 'Shopping',
+    thumb: 'img/app-icon.png'
+  }, {
+    id: 2,
+    name: 'Third App',
+    lastText: 'Games',
+    thumb: 'img/app-icon.png'
+  }, {
+    id: 3,
+    name: 'Fourth App',
+    lastText: 'Productivity',
+    thumb: 'img/app-icon.png'
+  }, {
+    id: 4,
+    name: 'Fifth App',
+    lastText: 'Reference',
+    thumb: 'img/app-icon.png'
   }];
 
   return {
