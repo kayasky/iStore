@@ -1,9 +1,21 @@
 <ion-view view-title="Explore">
   <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+    <ion-slide-box does-continue="true" auto-play="true" show-pager="false" on-slide-changed="slideHasChanged($index)">
+      <ion-slide>
+        <div class="slide-box energized-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box positive-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box balanced-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box royal-bg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slide-box assertive-bg"></div>
+      </ion-slide>
+    </ion-slide-box>
   </ion-content>
 </ion-view>
