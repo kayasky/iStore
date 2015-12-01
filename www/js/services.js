@@ -33,54 +33,54 @@ angular.module('iStore.services', [function() {
   /* Dummy data */
   var chats = [{
     id: 0,
-    name: 'First App',
+    name: 'App Name',
     lastText: 'Games',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appa.png'
   }, {
     id: 1,
-    name: 'Second App',
+    name: 'App Name',
     lastText: 'Shopping',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appb.png'
   }, {
     id: 2,
-    name: 'Third App',
+    name: 'App Name',
     lastText: 'Games',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appc.png'
   }, {
     id: 3,
-    name: 'Fourth App',
+    name: 'App Name',
     lastText: 'Productivity',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appd.png'
   }, {
     id: 4,
-    name: 'Fifth App',
+    name: 'App Name',
     lastText: 'Reference',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appe.png'
   }, {
-    id: 0,
-    name: 'First App',
+    id: 5,
+    name: 'App Name',
     lastText: 'Games',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appf.png'
   }, {
-    id: 1,
-    name: 'Second App',
+    id: 6,
+    name: 'App Name',
     lastText: 'Shopping',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appg.png'
   }, {
-    id: 2,
-    name: 'Third App',
+    id: 7,
+    name: 'App Name',
     lastText: 'Games',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/apph.png'
   }, {
-    id: 3,
-    name: 'Fourth App',
+    id: 8,
+    name: 'App Name',
     lastText: 'Productivity',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appi.png'
   }, {
-    id: 4,
-    name: 'Fifth App',
+    id: 9,
+    name: 'App Name',
     lastText: 'Reference',
-    thumb: 'img/app-icon.png'
+    thumb: 'img/appa.png'
   }];
 
   return {
